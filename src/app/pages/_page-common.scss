@@ -1,0 +1,47 @@
+:host {
+  display: block;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px 280px;
+}
+
+section {
+  margin: 28px 0;
+  padding-top: 8px;
+  border-top: 1px solid #e2e8f0;
+}
+
+h2 small {
+  font-weight: normal;
+  font-size: 13px;
+  color: #64748b;
+}
+
+.lead {
+  color: #334155;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.name {
+  margin: 6px 0 0;
+  font-weight: bold;
+}
+
+.price {
+  margin: 2px 0 0;
+  color: #475569;
+}
+
+button {
+  padding: 6px 12px;
+  border: 1px solid #94a3b8;
+  border-radius: 4px;
+  background: #f8fafc;
+  cursor: pointer;
+}

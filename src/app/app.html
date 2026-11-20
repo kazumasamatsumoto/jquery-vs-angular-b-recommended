@@ -1,0 +1,10 @@
+<header>
+  <nav>
+    <a routerLink="/" routerLinkActive="on" [routerLinkActiveOptions]="{ exact: true }" data-testid="nav-home">トップ</a>
+    <a routerLink="/recommended" routerLinkActive="on">B: 選び直す(推奨)</a>
+  </nav>
+</header>
+<main>
+  <router-outlet />
+</main>
+<app-diagnostics-panel />

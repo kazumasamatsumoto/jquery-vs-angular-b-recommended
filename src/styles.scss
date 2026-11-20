@@ -1,0 +1,21 @@
+/* 全体の基本スタイル。 */
+html,
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+  color: #0f172a;
+  background: #f8fafc;
+  line-height: 1.6;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 12px 0;
+}
+
+th,
+td {
+  border: 1px solid #cbd5e1;
+  padding: 6px 10px;
+  text-align: left;
+}
